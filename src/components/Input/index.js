@@ -1,6 +1,6 @@
 const Input = () => {
 return(
-    <input></input>
+    
 );
 
 }
