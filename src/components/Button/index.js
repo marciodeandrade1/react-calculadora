@@ -1,11 +1,11 @@
+import { InputContainer } from './styles';
 
-import { ButtonContainer } from './styles';
-
-const Button = ({label, onClick}) => {
+const Input = ({value}) => {
     return (
-        <ButtonContainer onClick={onClick}>
-            {label}
-        </ButtonContainer>
-    )
-}
-export default Button;
+      <InputContainer>
+       <input disabled value={value}/>
+      </InputContainer>
+    );
+  }
+  
+  export default Input;
